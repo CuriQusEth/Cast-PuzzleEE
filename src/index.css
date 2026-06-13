@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-cinzel: "Cinzel", serif;
+  
+  --color-magic-fire: #ff5722;
+  --color-magic-water: #03a9f4;
+  --color-magic-earth: #8bc34a;
+  --color-magic-wind: #e0e0e0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+  -webkit-font-smoothing: antialiased;
+}
